@@ -1,0 +1,180 @@
+{
+    "translations": [
+        {
+            "original": "Calculator",
+            "translated": "Calcul"
+        },
+        {
+            "original": "Database",
+            "translated": "Données"
+        },
+        {
+            "original": "workChain",
+            "translated": "Chaîne de prod."
+        },
+        {
+            "original": "scenario",
+            "translated": "Scénario"
+        },
+        {
+            "original": "inputSummary",
+            "translated": "Input"
+        },
+        {
+            "original": "reports",
+            "translated": "Rapports"
+        },
+        {
+            "original": "workChains",
+            "translated": "Chaînes de prod."
+        },
+        {
+            "original": "demandScenarios",
+            "translated": "Scénarios"
+        },
+        {
+            "original": "productInfos",
+            "translated": "Produits"
+        },
+        {
+            "original": "productKey",
+            "translated": "Clés produit"
+        },
+        {
+            "original": "productionSteps",
+            "translated": "Procédés"
+        },
+        {
+            "original": "name",
+            "translated": "Nom"
+        },
+        {
+            "original": "orders",
+            "translated": "Commandes"
+        },
+        {
+            "original": "openHours",
+            "translated": "Temps d'ouverture"
+        },
+        {
+            "original": "inputRateVariability",
+            "translated": "Variabilité d'entrée"
+        },
+        {
+            "original": "workstations",
+            "translated": "Postes de travail"
+        },
+        {
+            "original": "key",
+            "translated": "Clé"
+        },
+        {
+            "original": "machineCount",
+            "translated": "Nombre de machines"
+        },
+        {
+            "original": "operationName",
+            "translated": "Nom du procédé"
+        },
+        {
+            "original": "workStationKey",
+            "translated": "Clé du poste"
+        },
+        {
+            "original": "duration",
+            "translated": "Durée"
+        },
+        {
+            "original": "products",
+            "translated": "Produits"
+        },
+        {
+            "original": "product",
+            "translated": "Produit"
+        },
+        {
+            "original": "quantity",
+            "translated": "Quantité"
+        },
+        {
+            "original": "CalculatorInput",
+            "translated": "Valeurs d'entrée"
+        },
+        {
+            "original": "CalculatorOutput",
+            "translated": "Résultat"
+        },
+        {
+            "original": "(read only)",
+            "translated": "(lecture seule)"
+        },
+        {
+            "original": "WorkChain",
+            "translated": "Chaîne de production"
+        },
+        {
+            "original": "DemandScenario",
+            "translated": "Scénario"
+        },
+        {
+            "original": "CustomerOrder",
+            "translated": "Commande client"
+        },
+        {
+            "original": "ProductOrder",
+            "translated": "Commande produit"
+        },
+        {
+            "original": "ProductInfo",
+            "translated": "Produit"
+        },
+        {
+            "original": "workStation",
+            "translated": "Poste"
+        },
+        {
+            "original": "cycleTimeQueuing",
+            "translated": "Temps d'attente"
+        },
+        {
+            "original": "productionCount",
+            "translated": "Quantités totales"
+        },
+        {
+            "original": "averageProcessDuration",
+            "translated": "Temps moyen procédé"
+        },
+        {
+            "original": "usageIntensity",
+            "translated": "Utilisation"
+        },
+        {
+            "original": "durationVariability",
+            "translated": "Variabilité temps procédé"
+        },
+        {
+            "original": "processes",
+            "translated": "Procédés"
+        },
+        {
+            "original": "StationReport",
+            "translated": "Détail poste"
+        },
+        {
+            "original": "process",
+            "translated": "Procédé"
+        },
+        {
+            "original": "inputRate",
+            "translated": "Débit d'entrée"
+        },
+        {
+            "original": "ProcessReport",
+            "translated": "Détail procédé"
+        },
+        {
+            "original": "ProductionStep",
+            "translated": "?"
+        }
+    ]
+}

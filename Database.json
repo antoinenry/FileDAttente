@@ -1,0 +1,87 @@
+{
+    "testData": {
+        "aString": "",
+        "aData": "P0"
+    },
+    "workChains": [
+        {
+            "name": "WC0",
+            "openHours": 10.0,
+            "inputRateVariability": 0.30000001192092898,
+            "workstations": [
+                {
+                    "key": "WS0",
+                    "machineCount": 3,
+                    "durationVariability": 0.41999998688697817
+                },
+                {
+                    "key": "WS1",
+                    "machineCount": 2,
+                    "durationVariability": 0.8999999761581421
+                },
+                {
+                    "key": "WS2",
+                    "machineCount": 10,
+                    "durationVariability": 0.75
+                }
+            ]
+        }
+    ],
+    "demandScenarios": [
+        {
+            "name": "SC0",
+            "orders": [
+                {
+                    "name": "ORDER0",
+                    "products": [
+                        {
+                            "product": "P0",
+                            "quantity": 100
+                        },
+                        {
+                            "product": "P1",
+                            "quantity": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "productInfos": [
+        {
+            "productKey": "P0",
+            "productionSteps": [
+                {
+                    "operationName": "STEP0",
+                    "workStationKey": "WS0",
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "operationName": "STEP1",
+                    "workStationKey": "WS1",
+                    "duration": 0.009999999776482582
+                }
+            ]
+        },
+        {
+            "productKey": "P1",
+            "productionSteps": [
+                {
+                    "operationName": "STEP0",
+                    "workStationKey": "WS0",
+                    "duration": 0.009999999776482582
+                },
+                {
+                    "operationName": "STEP1",
+                    "workStationKey": "WS1",
+                    "duration": 0.30000001192092898
+                },
+                {
+                    "operationName": "STEP2",
+                    "workStationKey": "WS2",
+                    "duration": 0.05000000074505806
+                }
+            ]
+        }
+    ]
+}

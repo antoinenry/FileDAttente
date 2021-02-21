@@ -1,0 +1,89 @@
+{
+    "workChains": [
+        {
+            "name": "Ligne de réparation FAN",
+            "openHours": 1500.0,
+            "inputRateVariability": 1.0,
+            "workstations": [
+                {
+                    "key": "Jet d'eau",
+                    "machineCount": 2
+                },
+                {
+                    "key": "Ajustage",
+                    "machineCount": 2
+                },
+                {
+                    "key": "Graphitage",
+                    "machineCount": 1
+                },
+                {
+                    "key": "Contrôle",
+                    "machineCount": 5
+                }
+            ]
+        }
+    ],
+    "demandScenarios": [
+        {
+            "name": "2021",
+            "orders": [
+                {
+                    "name": "Senario1",
+                    "products": [
+                        {
+                            "product": "CFM",
+                            "quantity": 30
+                        },
+                        {
+                            "product": "LEAP",
+                            "quantity": 100
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "productInfos": [
+        {
+            "productKey": "CFM",
+            "productionSteps": [
+                {
+                    "operationName": "Lavage",
+                    "workStationKey": "Jet d'eau",
+                    "duration": 1.0
+                },
+                {
+                    "operationName": "CND",
+                    "workStationKey": "Contrôle",
+                    "duration": 3.0
+                },
+                {
+                    "operationName": "Réparation",
+                    "workStationKey": "Ajustage",
+                    "duration": 5.0
+                }
+            ]
+        },
+        {
+            "productKey": "LEAP",
+            "productionSteps": [
+                {
+                    "operationName": "Lavage",
+                    "workStationKey": "Jet d'eau",
+                    "duration": 0.5
+                },
+                {
+                    "operationName": "VST",
+                    "workStationKey": "Contrôle",
+                    "duration": 6.0
+                },
+                {
+                    "operationName": "Réparation",
+                    "workStationKey": "Graphitage",
+                    "duration": 8.0
+                }
+            ]
+        }
+    ]
+}
